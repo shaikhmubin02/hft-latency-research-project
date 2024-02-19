@@ -9,6 +9,9 @@ High-Frequency Trading (HFT) relies heavily on low-latency infrastructure to exe
 Features: 
 
 • Simulation Framework: Implement a simulation framework for generating random market data, simulating trade execution, and calculating performance metrics.
+
 • Latency Levels: Evaluate the impact of different latency levels (e.g., low latency, moderate latency) on HFT strategy performance.
+
 • Performance Metrics: Calculate key performance metrics such as fill rates, slippage, and profitability to assess the effectiveness of HFT strategies.
+
 • Analysis and Visualization: Analyze simulation results and visualize findings to gain insights into the impact of latency on trading outcomes.
