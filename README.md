@@ -1,6 +1,6 @@
 # hft-latency-research-project 
 
-This repository contains code and resources for analyzing the impact of latency on High-Frequency Trading (HFT) strategies. The research project aims to investigate how varying levels of latency affect the performance metrics of HFT algorithms, including fill rates, slippage, and profitability.
+This repository contains code and resources for analyzing the impact of latency on High-Frequency Trading (HFT) strategies. The project aims to investigate how varying levels of latency affect the performance metrics of HFT algorithms, including fill rates, slippage, and profitability.
 
 Overview : 
 
