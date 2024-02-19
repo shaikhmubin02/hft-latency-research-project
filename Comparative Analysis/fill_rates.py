@@ -5,10 +5,9 @@ class HFTStrategy:
         self.latency = latency
 
     def execute_order(self, order_type):
-        # Simulating order execution with latency
-        # Latency is represented as time delay in milliseconds
+        
         # Here, latency is simulated by adding a random delay
-        execution_time = self.latency + random.randint(1, 10)  # Adding random delay
+        execution_time = self.latency + random.randint(1, 10)  
         # Simulating order fill based on latency
         fill_rate = 0
         if execution_time <= 5:  # Orders executed within 5 milliseconds are considered filled

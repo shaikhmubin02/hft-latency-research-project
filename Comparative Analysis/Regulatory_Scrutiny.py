@@ -3,6 +3,7 @@ class ComplianceChecker:
         self.latency = latency
 
     def check_regulatory_compliance(self):
+        
         # Simulate regulatory compliance checks based on latency
         if self.latency < 1:
             return "Low-latency strategies may attract regulatory scrutiny due to potential market abuse."

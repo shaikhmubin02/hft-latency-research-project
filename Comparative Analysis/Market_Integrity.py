@@ -10,7 +10,7 @@ class MarketIntegrityEvaluator:
             return "Standard latency strategies contribute to market liquidity and efficiency but are subject to market impact risk."
 
 def evaluate_market_integrity():
-    latency_levels = [0.5, 2, 10]  # Different latency levels to evaluate
+    latency_levels = [0.5, 2, 10] 
 
     for latency in latency_levels:
         evaluator = MarketIntegrityEvaluator(latency)

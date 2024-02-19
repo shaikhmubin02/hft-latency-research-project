@@ -6,8 +6,9 @@ class LowLatencyStrategy:
         self.latency = latency
 
     def execute_order(self, current_price):
-        # Simulating order execution with latency
+    
         execution_time = self.latency + random.randint(1, 10)  # Adding random delay
+
         # Simulating slippage based on latency
         if execution_time <= 5:
             # Orders executed within 5 milliseconds experience minimal slippage
@@ -15,6 +16,7 @@ class LowLatencyStrategy:
         else:
             # Orders not executed within 5 milliseconds experience moderate slippage
             slippage = 0.05 * random.uniform(-1, 1)  # Simulating moderate slippage
+            
         # Calculate executed price with slippage
         executed_price = current_price + slippage
         return executed_price

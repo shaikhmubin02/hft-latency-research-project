@@ -5,7 +5,7 @@ class HFTStrategy:
         self.latency = latency
 
     def execute_order(self, order_type, current_price):
-        # Simulating order execution with latency
+       
         execution_time = self.latency + random.randint(1, 10)  # Adding random delay
         # Simulating slippage based on latency
         if execution_time <= 5:
@@ -36,7 +36,7 @@ def compare_profitability():
     moderate_latency_strategy = HFTStrategy(latency=5)  # Moderate latency setup
 
     initial_price = 100  # Initial market price
-    num_trades = 1000  # Number of trades to simulate
+    num_trades = 1000  # Number of trades 
 
     low_latency_profit = simulate_trades(low_latency_strategy, initial_price, num_trades)
     moderate_latency_profit = simulate_trades(moderate_latency_strategy, initial_price, num_trades)

@@ -27,10 +27,10 @@ def simulate_latency_arbitrage(latency_difference, num_trades, market_volatility
     return total_profit
 
 def analyze_latency_arbitrage_risks():
-    num_trades = 1000  # Number of trades to simulate
+    num_trades = 1000  # Number of trades 
     latency_difference = 0.001  # Latency difference in seconds
     market_volatility = 2  # Market volatility
-    regulatory_constraints = False  # Simulate regulatory constraints
+    regulatory_constraints = False  # Regulatory constraints
 
     total_profit = simulate_latency_arbitrage(latency_difference, num_trades, market_volatility)
 

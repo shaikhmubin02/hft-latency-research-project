@@ -15,6 +15,7 @@ class LatencyArbitrageStrategy:
 def simulate_latency_arbitrage(latency_difference, num_trades):
     total_profit = 0
     for _ in range(num_trades):
+
         # Simulating prices from two different feeds
         price_feed_1 = random.uniform(90, 110)
         price_feed_2 = random.uniform(90, 110)
@@ -24,11 +25,12 @@ def simulate_latency_arbitrage(latency_difference, num_trades):
         strategy = LatencyArbitrageStrategy(latency_difference)
         profit = strategy.execute_arbitrage(price_feed_1, price_feed_2)
         total_profit += profit
+
     return total_profit
 
 def analyze_latency_arbitrage():
-    num_trades = 1000  # Number of trades to simulate
-    latency_differences = [0.1, 0.01, 0.001]  # Latency differences to test
+    num_trades = 1000  # Number of trades
+    latency_differences = [0.1, 0.01, 0.001]  # Latency differences
 
     for latency_difference in latency_differences:
         total_profit = simulate_latency_arbitrage(latency_difference, num_trades)
