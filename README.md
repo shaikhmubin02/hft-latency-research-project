@@ -2,16 +2,20 @@
 
 This repository contains code and resources for analyzing the impact of latency on High-Frequency Trading (HFT) strategies. The project aims to investigate how varying levels of latency affect the performance metrics of HFT algorithms, including fill rates, slippage, and profitability.
 
-Overview : 
+## Overview : 
 
 High-Frequency Trading (HFT) relies heavily on low-latency infrastructure to execute trades rapidly in financial markets. This project explores the relationship between latency and trading outcomes, providing insights into the effectiveness of HFT strategies under different latency conditions.
 
-Features: 
+## Features: 
 
-• Simulation Framework: Implement a simulation framework for generating random market data, simulating trade execution, and calculating performance metrics.
+- Simulation Framework: Implement a simulation framework for generating random market data, simulating trade execution, and calculating performance metrics.
 
-• Latency Levels: Evaluate the impact of different latency levels (e.g., low latency, moderate latency) on HFT strategy performance.
+- Latency Levels: Evaluate the impact of different latency levels (e.g., low latency, moderate latency) on HFT strategy performance.
 
-• Performance Metrics: Calculate key performance metrics such as fill rates, slippage, and profitability to assess the effectiveness of HFT strategies.
+- Performance Metrics: Calculate key performance metrics such as fill rates, slippage, and profitability to assess the effectiveness of HFT strategies.
 
-• Analysis and Visualization: Analyze simulation results and visualize findings to gain insights into the impact of latency on trading outcomes.
+- Analysis and Visualization: Analyze simulation results and visualize findings to gain insights into the impact of latency on trading outcomes.
+
+### contributors
+
+mubin shaikh 
