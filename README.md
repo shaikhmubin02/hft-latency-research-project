@@ -15,7 +15,3 @@ High-Frequency Trading (HFT) relies heavily on low-latency infrastructure to exe
 - Performance Metrics: Calculate key performance metrics such as fill rates, slippage, and profitability to assess the effectiveness of HFT strategies.
 
 - Analysis and Visualization: Analyze simulation results and visualize findings to gain insights into the impact of latency on trading outcomes.
-
-### contributors
-
-mubin shaikh
